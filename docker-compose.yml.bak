@@ -26,7 +26,6 @@ services:
           - nginx3:nginx3
       volumes:
           - ./nginx-plus/etc/nginx:/etc/nginx
-          - ./nginx-hello/cache:/var/cache
       ports:
           - 8080:8080
           - 80:80
